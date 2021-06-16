@@ -3,7 +3,8 @@ name: COVID Box
 on:
   #workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    #- cron: '0 * * * *'
+    - cron:  '30 5,17 * * *'
 
 jobs:
   build:
